@@ -5,10 +5,10 @@ from django.views.decorators.cache import cache_control
 ##########################Pyrebase####################################
 import pyrebase
 config = {
-    "apiKey": "AIzaSyAXwgisDN7kx6BMZCIwYjj8KNDgmJuz1Mg",
-    "authDomain": "exampledjango-4af38.firebaseapp.com",
-    "databaseURL": "https://exampledjango-4af38.firebaseio.com",
-    "storageBucket": "exampledjango-4af38.appspot.com"
+    "apiKey": "###################################",
+    "authDomain": "###################################",
+    "databaseURL": "###################################",
+    "storageBucket": "###################################"
 }
 firebase = pyrebase.initialize_app(config)
 db = firebase.database() ##database reference
